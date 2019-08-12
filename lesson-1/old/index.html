@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('DOM fully loaded and parsed', document.querySelector('div').offsetWidth)
+        });
+        window.addEventListener('load', function () {
+            console.log('DOM Loaded', document.querySelector('div').offsetWidth)
+        });
+    </script>
+    <script src="script.js" type="module"></script>
+    <script src="script-1.js" type="module"></script>
+    <script src="script-2.js" ></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div></div>
+<img src="http://web.archive.org/web/20150211040638im_/http://ie.microsoft.com/testdrive/HTML5/DOMContentLoaded/window.jpg">
+<img src="http://web.archive.org/web/20150405114023im_/http://ie.microsoft.com/testdrive/HTML5/DOMContentLoaded/window.jpg">
+<img src="http://web.archive.org/web/20150405114023im_/http://ie.microsoft.com/testdrive/HTML5/DOMContentLoaded/whidbey2.jpg">
+
+</body>
+</html>
