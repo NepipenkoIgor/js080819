@@ -1,0 +1,8 @@
+.counter {
+    width: 540px;
+    margin: 10px;
+}
+.counter span {
+    margin-top: 5px;
+    text-align: center;
+}
